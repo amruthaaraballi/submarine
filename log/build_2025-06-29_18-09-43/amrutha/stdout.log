@@ -1,0 +1,32 @@
+running develop
+Removing /home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages/amrutha.egg-link (link to .)
+running egg_info
+writing ../../build/amrutha/amrutha.egg-info/PKG-INFO
+writing dependency_links to ../../build/amrutha/amrutha.egg-info/dependency_links.txt
+writing entry points to ../../build/amrutha/amrutha.egg-info/entry_points.txt
+writing requirements to ../../build/amrutha/amrutha.egg-info/requires.txt
+writing top-level names to ../../build/amrutha/amrutha.egg-info/top_level.txt
+reading manifest file '../../build/amrutha/amrutha.egg-info/SOURCES.txt'
+writing manifest file '../../build/amrutha/amrutha.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/araballi/edhitha_ws/build/amrutha/build
+creating /home/araballi/edhitha_ws/build/amrutha/build/lib
+creating /home/araballi/edhitha_ws/build/amrutha/build/lib/amrutha
+copying amrutha/__init__.py -> /home/araballi/edhitha_ws/build/amrutha/build/lib/amrutha
+copying amrutha/sub.py -> /home/araballi/edhitha_ws/build/amrutha/build/lib/amrutha
+running install
+running install_lib
+creating /home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages/amrutha
+copying /home/araballi/edhitha_ws/build/amrutha/build/lib/amrutha/__init__.py -> /home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages/amrutha
+copying /home/araballi/edhitha_ws/build/amrutha/build/lib/amrutha/sub.py -> /home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages/amrutha
+byte-compiling /home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages/amrutha/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages/amrutha/sub.py to sub.cpython-310.pyc
+running install_data
+copying resource/amrutha -> /home/araballi/edhitha_ws/install/amrutha/share/ament_index/resource_index/packages
+copying package.xml -> /home/araballi/edhitha_ws/install/amrutha/share/amrutha
+running install_egg_info
+Copying ../../build/amrutha/amrutha.egg-info to /home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages/amrutha-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sub_node script to /home/araballi/edhitha_ws/install/amrutha/lib/amrutha
+writing list of installed files to '/home/araballi/edhitha_ws/build/amrutha/install.log'

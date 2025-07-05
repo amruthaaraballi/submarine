@@ -1,0 +1,182 @@
+[0.368s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'mavros_extras', '--parallel-workers', '1']
+[0.368s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=1, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['mavros_extras'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77a0d9e31420>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77a0d9f4e980>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77a0d9f4e980>>)
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.958s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/araballi/edhitha_ws'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extensions ['ignore', 'ignore_ament_install']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extension 'ignore'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extension 'ignore_ament_install'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extensions ['colcon_pkg']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extension 'colcon_pkg'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extensions ['colcon_meta']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extension 'colcon_meta'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extensions ['ros']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extension 'ros'
+[1.003s] DEBUG:colcon.colcon_core.package_identification:Package 'src/amrutha' with type 'ros.ament_python' and name 'amrutha'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['ignore', 'ignore_ament_install']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ignore'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ignore_ament_install'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['colcon_pkg']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'colcon_pkg'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['colcon_meta']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'colcon_meta'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['ros']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ros'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['cmake', 'python']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'cmake'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'python'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['python_setup_py']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'python_setup_py'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['ignore', 'ignore_ament_install']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ignore'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ignore_ament_install'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['colcon_pkg']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'colcon_pkg'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['colcon_meta']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'colcon_meta'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['ros']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ros'
+[1.007s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/libmavconn' with type 'ros.ament_cmake' and name 'libmavconn'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['ignore', 'ignore_ament_install']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ignore'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ignore_ament_install'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['colcon_pkg']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'colcon_pkg'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['colcon_meta']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'colcon_meta'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['ros']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ros'
+[1.013s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros' with type 'ros.ament_cmake' and name 'mavros'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['ignore', 'ignore_ament_install']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ignore'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ignore_ament_install'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['colcon_pkg']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'colcon_pkg'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['colcon_meta']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'colcon_meta'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['ros']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ros'
+[1.019s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros_extras' with type 'ros.ament_cmake' and name 'mavros_extras'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ignore'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ignore_ament_install'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['colcon_pkg']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'colcon_pkg'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['colcon_meta']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'colcon_meta'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['ros']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ros'
+[1.022s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros_msgs' with type 'ros.ament_cmake' and name 'mavros_msgs'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) by extensions ['ignore', 'ignore_ament_install']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) by extension 'ignore'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) ignored
+[1.023s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.023s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.023s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.023s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.023s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.075s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'amrutha' in 'src/amrutha'
+[1.075s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'libmavconn' in 'src/mavros/libmavconn'
+[1.075s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mavros_msgs' in 'src/mavros/mavros_msgs'
+[1.075s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mavros' in 'src/mavros/mavros'
+[1.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.078s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/araballi/edhitha_ws/install/amrutha' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.081s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/araballi/edhitha_ws/install
+[1.085s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 283 installed packages in /opt/ros/humble
+[1.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.195s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_args' from command line to 'None'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_target' from command line to 'None'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_clean_cache' from command line to 'False'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_clean_first' from command line to 'False'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_force_configure' from command line to 'False'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'ament_cmake_args' from command line to 'None'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'catkin_cmake_args' from command line to 'None'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.196s] DEBUG:colcon.colcon_core.verb:Building package 'mavros_extras' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/araballi/edhitha_ws/build/mavros_extras', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/araballi/edhitha_ws/install/mavros_extras', 'merge_install': False, 'path': '/home/araballi/edhitha_ws/src/mavros/mavros_extras', 'symlink_install': True, 'test_result_base': None}
+[1.196s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.200s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/araballi/edhitha_ws/src/mavros/mavros_extras' with build type 'ament_cmake'
+[1.200s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/araballi/edhitha_ws/src/mavros/mavros_extras'
+[1.206s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/araballi/edhitha_ws/build/mavros_extras': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake /home/araballi/edhitha_ws/src/mavros/mavros_extras -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/araballi/edhitha_ws/install/mavros_extras
+[24.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/araballi/edhitha_ws/build/mavros_extras' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake /home/araballi/edhitha_ws/src/mavros/mavros_extras -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/araballi/edhitha_ws/install/mavros_extras
+[24.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/araballi/edhitha_ws/build/mavros_extras': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --build /home/araballi/edhitha_ws/build/mavros_extras -- -j16 -l16
+[432.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/araballi/edhitha_ws/build/mavros_extras' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --build /home/araballi/edhitha_ws/build/mavros_extras -- -j16 -l16
+[432.970s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_extras)
+[433.203s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras' for CMake module files
+[433.206s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras' for CMake config files
+[433.224s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras/bin'
+[433.225s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras/lib/pkgconfig/mavros_extras.pc'
+[433.252s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras/lib/python3.10/site-packages'
+[433.253s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras/bin'
+[433.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.ps1'
+[433.329s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.dsv'
+[433.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.sh'
+[433.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.bash'
+[433.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.zsh'
+[433.371s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/araballi/edhitha_ws/install/mavros_extras/share/colcon-core/packages/mavros_extras)
+[433.431s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[433.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[433.446s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[433.447s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[433.738s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[433.739s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[433.739s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[433.740s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[433.748s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[433.750s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[433.769s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/araballi/edhitha_ws/install/local_setup.ps1'
+[433.776s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/araballi/edhitha_ws/install/_local_setup_util_ps1.py'
+[433.781s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/araballi/edhitha_ws/install/setup.ps1'
+[433.797s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/araballi/edhitha_ws/install/local_setup.sh'
+[433.800s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/araballi/edhitha_ws/install/_local_setup_util_sh.py'
+[433.807s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/araballi/edhitha_ws/install/setup.sh'
+[433.812s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/araballi/edhitha_ws/install/local_setup.bash'
+[433.819s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/araballi/edhitha_ws/install/setup.bash'
+[433.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/araballi/edhitha_ws/install/local_setup.zsh'
+[433.826s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/araballi/edhitha_ws/install/setup.zsh'

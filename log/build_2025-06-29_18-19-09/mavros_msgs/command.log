@@ -1,0 +1,4 @@
+Invoking command in '/home/araballi/edhitha_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --build /home/araballi/edhitha_ws/build/mavros_msgs -- -j16 -l16
+Invoked command in '/home/araballi/edhitha_ws/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --build /home/araballi/edhitha_ws/build/mavros_msgs -- -j16 -l16
+Invoking command in '/home/araballi/edhitha_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --install /home/araballi/edhitha_ws/build/mavros_msgs
+Invoked command in '/home/araballi/edhitha_ws/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --install /home/araballi/edhitha_ws/build/mavros_msgs

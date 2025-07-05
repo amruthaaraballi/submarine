@@ -1,0 +1,24 @@
+[1.258s] Invoking command in '/home/araballi/edhitha_ws/build/amrutha': PYTHONPATH=/home/araballi/edhitha_ws/build/amrutha/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/araballi/edhitha_ws/build/amrutha/build --no-deps symlink_data
+[1.611s] running develop
+[1.843s] running egg_info
+[1.843s] creating amrutha.egg-info
+[1.857s] writing amrutha.egg-info/PKG-INFO
+[1.857s] writing dependency_links to amrutha.egg-info/dependency_links.txt
+[1.858s] writing entry points to amrutha.egg-info/entry_points.txt
+[1.858s] writing requirements to amrutha.egg-info/requires.txt
+[1.858s] writing top-level names to amrutha.egg-info/top_level.txt
+[1.859s] writing manifest file 'amrutha.egg-info/SOURCES.txt'
+[1.887s] reading manifest file 'amrutha.egg-info/SOURCES.txt'
+[1.887s] writing manifest file 'amrutha.egg-info/SOURCES.txt'
+[1.902s] running build_ext
+[1.902s] Creating /home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages/amrutha.egg-link (link to .)
+[1.902s] Installing sub_node script to /home/araballi/edhitha_ws/install/amrutha/lib/amrutha
+[1.903s] 
+[1.904s] Installed /home/araballi/edhitha_ws/build/amrutha
+[1.904s] running symlink_data
+[1.904s] creating /home/araballi/edhitha_ws/install/amrutha/share/ament_index
+[1.904s] creating /home/araballi/edhitha_ws/install/amrutha/share/ament_index/resource_index
+[1.904s] creating /home/araballi/edhitha_ws/install/amrutha/share/ament_index/resource_index/packages
+[1.905s] symbolically linking /home/araballi/edhitha_ws/build/amrutha/resource/amrutha -> /home/araballi/edhitha_ws/install/amrutha/share/ament_index/resource_index/packages
+[1.905s] symbolically linking /home/araballi/edhitha_ws/build/amrutha/package.xml -> /home/araballi/edhitha_ws/install/amrutha/share/amrutha
+[1.954s] Invoked command in '/home/araballi/edhitha_ws/build/amrutha' returned '0': PYTHONPATH=/home/araballi/edhitha_ws/build/amrutha/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/araballi/edhitha_ws/build/amrutha/build --no-deps symlink_data

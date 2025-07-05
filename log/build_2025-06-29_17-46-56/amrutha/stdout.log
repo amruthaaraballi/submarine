@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating amrutha.egg-info
+writing amrutha.egg-info/PKG-INFO
+writing dependency_links to amrutha.egg-info/dependency_links.txt
+writing entry points to amrutha.egg-info/entry_points.txt
+writing requirements to amrutha.egg-info/requires.txt
+writing top-level names to amrutha.egg-info/top_level.txt
+writing manifest file 'amrutha.egg-info/SOURCES.txt'
+reading manifest file 'amrutha.egg-info/SOURCES.txt'
+writing manifest file 'amrutha.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages/amrutha.egg-link (link to .)
+Installing sub_node script to /home/araballi/edhitha_ws/install/amrutha/lib/amrutha
+
+Installed /home/araballi/edhitha_ws/build/amrutha
+running symlink_data
+creating /home/araballi/edhitha_ws/install/amrutha/share/ament_index
+creating /home/araballi/edhitha_ws/install/amrutha/share/ament_index/resource_index
+creating /home/araballi/edhitha_ws/install/amrutha/share/ament_index/resource_index/packages
+symbolically linking /home/araballi/edhitha_ws/build/amrutha/resource/amrutha -> /home/araballi/edhitha_ws/install/amrutha/share/ament_index/resource_index/packages
+symbolically linking /home/araballi/edhitha_ws/build/amrutha/package.xml -> /home/araballi/edhitha_ws/install/amrutha/share/amrutha

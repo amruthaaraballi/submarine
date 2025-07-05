@@ -1,0 +1,17 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mavros_extras.dir/build.make:76: CMakeFiles/mavros_extras.dir/src/lib/servo_state_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/mavros_extras.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mavros_extras_plugins.dir/build.make:286: CMakeFiles/mavros_extras_plugins.dir/src/plugins/guided_target.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mavros_extras_plugins.dir/build.make:258: CMakeFiles/mavros_extras_plugins.dir/src/plugins/gps_rtk.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mavros_extras_plugins.dir/build.make:300: CMakeFiles/mavros_extras_plugins.dir/src/plugins/hil.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/mavros_extras_plugins.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,42 @@
+[0.120s] Invoking command in '/home/araballi/edhitha_ws/build/mavros_extras': AMENT_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros/lib:/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages:/home/araballi/edhitha_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/araballi/edhitha_ws/build/mavros_extras -- -j16 -l16
+[0.187s] [35m[1mConsolidate compiler generated dependencies of target mavros_extras[0m
+[0.207s] [  4%] Built target servo_state_publisher
+[0.210s] [  9%] Built target mavros_extras
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target mavros_extras_plugins[0m
+[0.443s] [100%] Built target mavros_extras_plugins
+[0.459s] Invoked command in '/home/araballi/edhitha_ws/build/mavros_extras' returned '0': AMENT_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros/lib:/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages:/home/araballi/edhitha_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/araballi/edhitha_ws/build/mavros_extras -- -j16 -l16
+[0.461s] Invoking command in '/home/araballi/edhitha_ws/build/mavros_extras': AMENT_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros/lib:/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages:/home/araballi/edhitha_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/araballi/edhitha_ws/build/mavros_extras
+[0.471s] -- Install configuration: ""
+[0.471s] -- Execute custom install script
+[0.471s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras//mavros_plugins.xml
+[0.472s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/lib/mavros_extras/servo_state_publisher
+[0.472s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/include/mavros_extras/servo_state_publisher.hpp
+[0.472s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/launch/px4flow.launch
+[0.473s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/launch/px4flow_config.yaml
+[0.473s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/launch/px4flow_pluginlists.yaml
+[0.473s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/launch/servo_state_publisher.yaml
+[0.473s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/environment/library_path.sh
+[0.473s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/environment/library_path.dsv
+[0.474s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/ament_index/resource_index/package_run_dependencies/mavros_extras
+[0.474s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/ament_index/resource_index/parent_prefix_path/mavros_extras
+[0.474s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/environment/ament_prefix_path.sh
+[0.474s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/environment/ament_prefix_path.dsv
+[0.474s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/environment/path.sh
+[0.475s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/environment/path.dsv
+[0.475s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/local_setup.bash
+[0.475s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/local_setup.sh
+[0.475s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/local_setup.zsh
+[0.475s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/local_setup.dsv
+[0.476s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.dsv
+[0.488s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/ament_index/resource_index/packages/mavros_extras
+[0.488s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/ament_index/resource_index/mavros__pluginlib__plugin/mavros_extras
+[0.488s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/ament_index/resource_index/rclcpp_components/mavros_extras
+[0.488s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.488s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/cmake/ament_cmake_export_libraries-extras.cmake
+[0.489s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.489s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig.cmake
+[0.489s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
+[0.489s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.xml
+[0.489s] -- Up-to-date: /home/araballi/edhitha_ws/install/mavros_extras/lib/libmavros_extras.so
+[0.490s] -- Up-to-date: /home/araballi/edhitha_ws/install/mavros_extras/lib/libmavros_extras_plugins.so
+[0.493s] Invoked command in '/home/araballi/edhitha_ws/build/mavros_extras' returned '0': AMENT_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros/lib:/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages:/home/araballi/edhitha_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/araballi/edhitha_ws/build/mavros_extras

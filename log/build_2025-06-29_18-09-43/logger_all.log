@@ -1,0 +1,444 @@
+[0.137s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.137s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7719d42fcee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7719d445a440>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7719d445a440>>)
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.371s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/araballi/edhitha_ws'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/amrutha) by extension 'ros'
+[0.390s] DEBUG:colcon.colcon_core.package_identification:Package 'src/amrutha' with type 'ros.ament_python' and name 'amrutha'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'python_setup_py'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ros'
+[0.392s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/libmavconn' with type 'ros.ament_cmake' and name 'libmavconn'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ros'
+[0.394s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros' with type 'ros.ament_cmake' and name 'mavros'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ros'
+[0.397s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros_extras' with type 'ros.ament_cmake' and name 'mavros_extras'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ros'
+[0.399s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros_msgs' with type 'ros.ament_cmake' and name 'mavros_msgs'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) ignored
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.423s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/araballi/edhitha_ws/install
+[0.424s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/humble
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'amrutha' build argument 'cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'amrutha' build argument 'cmake_target' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'amrutha' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'amrutha' build argument 'cmake_clean_cache' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'amrutha' build argument 'cmake_clean_first' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'amrutha' build argument 'cmake_force_configure' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'amrutha' build argument 'ament_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'amrutha' build argument 'catkin_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'amrutha' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.465s] DEBUG:colcon.colcon_core.verb:Building package 'amrutha' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/araballi/edhitha_ws/build/amrutha', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/araballi/edhitha_ws/install/amrutha', 'merge_install': False, 'path': '/home/araballi/edhitha_ws/src/amrutha', 'symlink_install': False, 'test_result_base': None}
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_target' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_clean_cache' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_clean_first' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_force_configure' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'ament_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'catkin_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.466s] DEBUG:colcon.colcon_core.verb:Building package 'libmavconn' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/araballi/edhitha_ws/build/libmavconn', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/araballi/edhitha_ws/install/libmavconn', 'merge_install': False, 'path': '/home/araballi/edhitha_ws/src/mavros/libmavconn', 'symlink_install': False, 'test_result_base': None}
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.466s] DEBUG:colcon.colcon_core.verb:Building package 'mavros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/araballi/edhitha_ws/build/mavros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/araballi/edhitha_ws/install/mavros_msgs', 'merge_install': False, 'path': '/home/araballi/edhitha_ws/src/mavros/mavros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_target' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_clean_first' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_force_configure' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'ament_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.466s] DEBUG:colcon.colcon_core.verb:Building package 'mavros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/araballi/edhitha_ws/build/mavros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/araballi/edhitha_ws/install/mavros', 'merge_install': False, 'path': '/home/araballi/edhitha_ws/src/mavros/mavros', 'symlink_install': False, 'test_result_base': None}
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_target' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_clean_cache' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_clean_first' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_force_configure' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'ament_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'catkin_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.467s] DEBUG:colcon.colcon_core.verb:Building package 'mavros_extras' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/araballi/edhitha_ws/build/mavros_extras', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/araballi/edhitha_ws/install/mavros_extras', 'merge_install': False, 'path': '/home/araballi/edhitha_ws/src/mavros/mavros_extras', 'symlink_install': False, 'test_result_base': None}
+[0.467s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.468s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.469s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/araballi/edhitha_ws/src/mavros/libmavconn' with build type 'ament_cmake'
+[0.469s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/araballi/edhitha_ws/src/mavros/libmavconn'
+[0.471s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.472s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.472s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.475s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/araballi/edhitha_ws/src/mavros/mavros_msgs' with build type 'ament_cmake'
+[0.475s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/araballi/edhitha_ws/src/mavros/mavros_msgs'
+[0.476s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.476s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.480s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/araballi/edhitha_ws/src/amrutha' with build type 'ament_python'
+[0.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('amrutha', 'ament_prefix_path')
+[0.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/amrutha/share/amrutha/hook/ament_prefix_path.ps1'
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/amrutha/share/amrutha/hook/ament_prefix_path.dsv'
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/amrutha/share/amrutha/hook/ament_prefix_path.sh'
+[0.483s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.483s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/araballi/edhitha_ws/build/libmavconn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake /home/araballi/edhitha_ws/src/mavros/libmavconn -DCMAKE_INSTALL_PREFIX=/home/araballi/edhitha_ws/install/libmavconn
+[0.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/araballi/edhitha_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake /home/araballi/edhitha_ws/src/mavros/mavros_msgs -DCMAKE_INSTALL_PREFIX=/home/araballi/edhitha_ws/install/mavros_msgs
+[0.862s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/araballi/edhitha_ws/src/amrutha'
+[0.862s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.862s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/araballi/edhitha_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake /home/araballi/edhitha_ws/src/mavros/libmavconn -DCMAKE_INSTALL_PREFIX=/home/araballi/edhitha_ws/install/libmavconn
+[0.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/araballi/edhitha_ws/build/libmavconn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --build /home/araballi/edhitha_ws/build/libmavconn -- -j16 -l16
+[1.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/araballi/edhitha_ws/build/amrutha': PYTHONPATH=/home/araballi/edhitha_ws/build/amrutha/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/araballi/edhitha_ws/build/amrutha/build
+[1.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/araballi/edhitha_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --build /home/araballi/edhitha_ws/build/libmavconn -- -j16 -l16
+[1.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/araballi/edhitha_ws/build/libmavconn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --install /home/araballi/edhitha_ws/build/libmavconn
+[1.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libmavconn)
+[1.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/araballi/edhitha_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --install /home/araballi/edhitha_ws/build/libmavconn
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/libmavconn' for CMake module files
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/libmavconn' for CMake config files
+[1.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'cmake_prefix_path')
+[1.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.ps1'
+[1.958s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.dsv'
+[1.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.sh'
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/libmavconn/lib'
+[1.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'ld_library_path_lib')
+[1.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.ps1'
+[1.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.dsv'
+[1.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.sh'
+[1.960s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/libmavconn/bin'
+[1.960s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/libmavconn/lib/pkgconfig/libmavconn.pc'
+[1.960s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/libmavconn/lib/python3.10/site-packages'
+[1.961s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/libmavconn/bin'
+[1.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/package.ps1'
+[1.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/package.dsv'
+[1.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/package.sh'
+[1.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/package.bash'
+[1.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/package.zsh'
+[1.964s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/araballi/edhitha_ws/install/libmavconn/share/colcon-core/packages/libmavconn)
+[1.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libmavconn)
+[1.965s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/libmavconn' for CMake module files
+[1.966s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/libmavconn' for CMake config files
+[1.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'cmake_prefix_path')
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.ps1'
+[1.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.dsv'
+[1.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.sh'
+[1.968s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/libmavconn/lib'
+[1.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'ld_library_path_lib')
+[1.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.ps1'
+[1.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.dsv'
+[1.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.sh'
+[1.969s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/libmavconn/bin'
+[1.969s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/libmavconn/lib/pkgconfig/libmavconn.pc'
+[1.969s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/libmavconn/lib/python3.10/site-packages'
+[1.970s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/libmavconn/bin'
+[1.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/package.ps1'
+[1.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/package.dsv'
+[1.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/package.sh'
+[1.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/package.bash'
+[1.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/package.zsh'
+[1.973s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/araballi/edhitha_ws/install/libmavconn/share/colcon-core/packages/libmavconn)
+[2.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/araballi/edhitha_ws/build/amrutha' returned '0': PYTHONPATH=/home/araballi/edhitha_ws/build/amrutha/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/araballi/edhitha_ws/build/amrutha/build
+[2.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/araballi/edhitha_ws/src/amrutha': PYTHONPATH=/home/araballi/edhitha_ws/build/amrutha/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amrutha build --build-base /home/araballi/edhitha_ws/build/amrutha/build install --record /home/araballi/edhitha_ws/build/amrutha/install.log --single-version-externally-managed install_data --force
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/amrutha' for CMake module files
+[2.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/araballi/edhitha_ws/src/amrutha' returned '0': PYTHONPATH=/home/araballi/edhitha_ws/build/amrutha/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amrutha build --build-base /home/araballi/edhitha_ws/build/amrutha/build install --record /home/araballi/edhitha_ws/build/amrutha/install.log --single-version-externally-managed install_data --force
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/amrutha' for CMake config files
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/amrutha/lib'
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/amrutha/bin'
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/amrutha/lib/pkgconfig/amrutha.pc'
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages'
+[2.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('amrutha', 'pythonpath')
+[2.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/amrutha/share/amrutha/hook/pythonpath.ps1'
+[2.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/amrutha/share/amrutha/hook/pythonpath.dsv'
+[2.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/amrutha/share/amrutha/hook/pythonpath.sh'
+[2.763s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/amrutha/bin'
+[2.764s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amrutha)
+[2.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/amrutha/share/amrutha/package.ps1'
+[2.764s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/araballi/edhitha_ws/install/amrutha/share/amrutha/package.dsv'
+[2.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/amrutha/share/amrutha/package.sh'
+[2.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/amrutha/share/amrutha/package.bash'
+[2.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/amrutha/share/amrutha/package.zsh'
+[2.766s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/araballi/edhitha_ws/install/amrutha/share/colcon-core/packages/amrutha)
+[3.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/araballi/edhitha_ws/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake /home/araballi/edhitha_ws/src/mavros/mavros_msgs -DCMAKE_INSTALL_PREFIX=/home/araballi/edhitha_ws/install/mavros_msgs
+[3.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/araballi/edhitha_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --build /home/araballi/edhitha_ws/build/mavros_msgs -- -j16 -l16
+[4.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/araballi/edhitha_ws/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --build /home/araballi/edhitha_ws/build/mavros_msgs -- -j16 -l16
+[4.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/araballi/edhitha_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --install /home/araballi/edhitha_ws/build/mavros_msgs
+[4.744s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_msgs)
+[4.744s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_msgs' for CMake module files
+[4.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/araballi/edhitha_ws/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --install /home/araballi/edhitha_ws/build/mavros_msgs
+[4.746s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_msgs' for CMake config files
+[4.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'cmake_prefix_path')
+[4.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.ps1'
+[4.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.dsv'
+[4.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.sh'
+[4.751s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_msgs/lib'
+[4.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'ld_library_path_lib')
+[4.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.ps1'
+[4.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.dsv'
+[4.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.sh'
+[4.752s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_msgs/bin'
+[4.752s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_msgs/lib/pkgconfig/mavros_msgs.pc'
+[4.752s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_msgs/lib/python3.10/site-packages'
+[4.752s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_msgs/bin'
+[4.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/package.ps1'
+[4.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/package.dsv'
+[4.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/package.sh'
+[4.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/package.bash'
+[4.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/package.zsh'
+[4.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/araballi/edhitha_ws/install/mavros_msgs/share/colcon-core/packages/mavros_msgs)
+[4.755s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_msgs)
+[4.755s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_msgs' for CMake module files
+[4.756s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_msgs' for CMake config files
+[4.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'cmake_prefix_path')
+[4.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.ps1'
+[4.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.dsv'
+[4.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.sh'
+[4.760s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_msgs/lib'
+[4.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'ld_library_path_lib')
+[4.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.ps1'
+[4.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.dsv'
+[4.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.sh'
+[4.761s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_msgs/bin'
+[4.761s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_msgs/lib/pkgconfig/mavros_msgs.pc'
+[4.761s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_msgs/lib/python3.10/site-packages'
+[4.761s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_msgs/bin'
+[4.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/package.ps1'
+[4.762s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/package.dsv'
+[4.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/package.sh'
+[4.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/package.bash'
+[4.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/package.zsh'
+[4.764s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/araballi/edhitha_ws/install/mavros_msgs/share/colcon-core/packages/mavros_msgs)
+[4.764s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/araballi/edhitha_ws/src/mavros/mavros' with build type 'ament_cmake'
+[4.764s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/araballi/edhitha_ws/src/mavros/mavros'
+[4.764s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.764s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/araballi/edhitha_ws/build/mavros': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros_extras:/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros_extras/lib:/home/araballi/edhitha_ws/install/mavros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/araballi/edhitha_ws/src/mavros/mavros -DCMAKE_INSTALL_PREFIX=/home/araballi/edhitha_ws/install/mavros
+[10.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/araballi/edhitha_ws/build/mavros' returned '0': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros_extras:/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros_extras/lib:/home/araballi/edhitha_ws/install/mavros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/araballi/edhitha_ws/src/mavros/mavros -DCMAKE_INSTALL_PREFIX=/home/araballi/edhitha_ws/install/mavros
+[10.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/araballi/edhitha_ws/build/mavros': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros_extras:/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros_extras/lib:/home/araballi/edhitha_ws/install/mavros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/araballi/edhitha_ws/build/mavros -- -j16 -l16
+[26.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/araballi/edhitha_ws/build/mavros' returned '0': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros_extras:/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros_extras/lib:/home/araballi/edhitha_ws/install/mavros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/araballi/edhitha_ws/build/mavros -- -j16 -l16
+[26.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/araballi/edhitha_ws/build/mavros': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros_extras:/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros_extras/lib:/home/araballi/edhitha_ws/install/mavros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/araballi/edhitha_ws/build/mavros
+[27.274s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros)
+[27.275s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros' for CMake module files
+[27.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/araballi/edhitha_ws/build/mavros' returned '0': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros_extras:/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros_extras/lib:/home/araballi/edhitha_ws/install/mavros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/araballi/edhitha_ws/build/mavros
+[27.276s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros' for CMake config files
+[27.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'cmake_prefix_path')
+[27.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros/share/mavros/hook/cmake_prefix_path.ps1'
+[27.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/mavros/share/mavros/hook/cmake_prefix_path.dsv'
+[27.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros/share/mavros/hook/cmake_prefix_path.sh'
+[27.278s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros/lib'
+[27.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'ld_library_path_lib')
+[27.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros/share/mavros/hook/ld_library_path_lib.ps1'
+[27.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/mavros/share/mavros/hook/ld_library_path_lib.dsv'
+[27.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros/share/mavros/hook/ld_library_path_lib.sh'
+[27.279s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros/bin'
+[27.280s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros/lib/pkgconfig/mavros.pc'
+[27.280s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros/lib/python3.10/site-packages'
+[27.280s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros/bin'
+[27.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros/share/mavros/package.ps1'
+[27.281s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/araballi/edhitha_ws/install/mavros/share/mavros/package.dsv'
+[27.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros/share/mavros/package.sh'
+[27.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros/share/mavros/package.bash'
+[27.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros/share/mavros/package.zsh'
+[27.282s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/araballi/edhitha_ws/install/mavros/share/colcon-core/packages/mavros)
+[27.283s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros)
+[27.283s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros' for CMake module files
+[27.283s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros' for CMake config files
+[27.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'cmake_prefix_path')
+[27.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros/share/mavros/hook/cmake_prefix_path.ps1'
+[27.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/mavros/share/mavros/hook/cmake_prefix_path.dsv'
+[27.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros/share/mavros/hook/cmake_prefix_path.sh'
+[27.285s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros/lib'
+[27.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'ld_library_path_lib')
+[27.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros/share/mavros/hook/ld_library_path_lib.ps1'
+[27.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/mavros/share/mavros/hook/ld_library_path_lib.dsv'
+[27.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros/share/mavros/hook/ld_library_path_lib.sh'
+[27.286s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros/bin'
+[27.286s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros/lib/pkgconfig/mavros.pc'
+[27.287s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros/lib/python3.10/site-packages'
+[27.287s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros/bin'
+[27.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros/share/mavros/package.ps1'
+[27.287s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/araballi/edhitha_ws/install/mavros/share/mavros/package.dsv'
+[27.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros/share/mavros/package.sh'
+[27.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros/share/mavros/package.bash'
+[27.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros/share/mavros/package.zsh'
+[27.289s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/araballi/edhitha_ws/install/mavros/share/colcon-core/packages/mavros)
+[27.289s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/araballi/edhitha_ws/src/mavros/mavros_extras' with build type 'ament_cmake'
+[27.289s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/araballi/edhitha_ws/src/mavros/mavros_extras'
+[27.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[27.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[27.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/araballi/edhitha_ws/build/mavros_extras': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros_extras:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros/lib:/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros_extras/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/araballi/edhitha_ws/src/mavros/mavros_extras -DCMAKE_INSTALL_PREFIX=/home/araballi/edhitha_ws/install/mavros_extras
+[32.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/araballi/edhitha_ws/build/mavros_extras' returned '0': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros_extras:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros/lib:/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros_extras/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/araballi/edhitha_ws/src/mavros/mavros_extras -DCMAKE_INSTALL_PREFIX=/home/araballi/edhitha_ws/install/mavros_extras
+[32.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/araballi/edhitha_ws/build/mavros_extras': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros_extras:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros/lib:/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros_extras/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/araballi/edhitha_ws/build/mavros_extras -- -j16 -l16
+[58.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/araballi/edhitha_ws/build/mavros_extras' returned '0': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros_extras:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros/lib:/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros_extras/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/araballi/edhitha_ws/build/mavros_extras -- -j16 -l16
+[58.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/araballi/edhitha_ws/build/mavros_extras': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros_extras:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros/lib:/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros_extras/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/araballi/edhitha_ws/build/mavros_extras
+[58.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_extras)
+[58.630s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras' for CMake module files
+[58.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/araballi/edhitha_ws/build/mavros_extras' returned '0': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros_extras:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros/lib:/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros_extras/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/araballi/edhitha_ws/build/mavros_extras
+[58.632s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras' for CMake config files
+[58.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_extras', 'cmake_prefix_path')
+[58.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.ps1'
+[58.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.dsv'
+[58.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.sh'
+[58.634s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras/lib'
+[58.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_extras', 'ld_library_path_lib')
+[58.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.ps1'
+[58.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.dsv'
+[58.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.sh'
+[58.635s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras/bin'
+[58.635s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras/lib/pkgconfig/mavros_extras.pc'
+[58.635s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras/lib/python3.10/site-packages'
+[58.636s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras/bin'
+[58.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.ps1'
+[58.636s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.dsv'
+[58.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.sh'
+[58.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.bash'
+[58.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.zsh'
+[58.638s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/araballi/edhitha_ws/install/mavros_extras/share/colcon-core/packages/mavros_extras)
+[58.638s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_extras)
+[58.638s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras' for CMake module files
+[58.639s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras' for CMake config files
+[58.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_extras', 'cmake_prefix_path')
+[58.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.ps1'
+[58.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.dsv'
+[58.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.sh'
+[58.640s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras/lib'
+[58.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_extras', 'ld_library_path_lib')
+[58.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.ps1'
+[58.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.dsv'
+[58.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.sh'
+[58.642s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras/bin'
+[58.642s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras/lib/pkgconfig/mavros_extras.pc'
+[58.642s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras/lib/python3.10/site-packages'
+[58.642s] Level 1:colcon.colcon_core.environment:checking '/home/araballi/edhitha_ws/install/mavros_extras/bin'
+[58.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.ps1'
+[58.643s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.dsv'
+[58.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.sh'
+[58.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.bash'
+[58.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.zsh'
+[58.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/araballi/edhitha_ws/install/mavros_extras/share/colcon-core/packages/mavros_extras)
+[58.645s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[58.646s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[58.646s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[58.646s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[58.670s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[58.670s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[58.670s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[58.670s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[58.671s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[58.671s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[58.671s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/araballi/edhitha_ws/install/local_setup.ps1'
+[58.673s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/araballi/edhitha_ws/install/_local_setup_util_ps1.py'
+[58.674s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/araballi/edhitha_ws/install/setup.ps1'
+[58.675s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/araballi/edhitha_ws/install/local_setup.sh'
+[58.676s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/araballi/edhitha_ws/install/_local_setup_util_sh.py'
+[58.676s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/araballi/edhitha_ws/install/setup.sh'
+[58.677s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/araballi/edhitha_ws/install/local_setup.bash'
+[58.678s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/araballi/edhitha_ws/install/setup.bash'
+[58.679s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/araballi/edhitha_ws/install/local_setup.zsh'
+[58.679s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/araballi/edhitha_ws/install/setup.zsh'

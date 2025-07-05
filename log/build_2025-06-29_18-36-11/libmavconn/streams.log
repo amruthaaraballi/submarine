@@ -1,0 +1,46 @@
+[0.054s] Invoking command in '/home/araballi/edhitha_ws/build/libmavconn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --build /home/araballi/edhitha_ws/build/libmavconn -- -j16 -l16
+[0.252s] [ 33%] Built target gtest
+[0.253s] [ 33%] Built target gtest_main
+[0.297s] [ 83%] Built target mavconn
+[0.398s] [100%] Built target test_mavconn
+[1.139s] Invoked command in '/home/araballi/edhitha_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --build /home/araballi/edhitha_ws/build/libmavconn -- -j16 -l16
+[1.169s] Invoking command in '/home/araballi/edhitha_ws/build/libmavconn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --install /home/araballi/edhitha_ws/build/libmavconn
+[1.191s] -- Install configuration: ""
+[1.192s] -- Execute custom install script
+[1.192s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/lib/libmavconn.so
+[1.193s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/include/mavconn/console_bridge_compat.hpp
+[1.194s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/include/mavconn/interface.hpp
+[1.194s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/include/mavconn/mavlink_dialect.hpp
+[1.195s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/include/mavconn/mavlink_dialect.hpp.em
+[1.195s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/include/mavconn/msgbuffer.hpp
+[1.196s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/include/mavconn/serial.hpp
+[1.196s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/include/mavconn/tcp.hpp
+[1.197s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/include/mavconn/thread_utils.hpp
+[1.197s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/include/mavconn/udp.hpp
+[1.198s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/cmake/Modules/CheckGeographicLibDatasets.cmake
+[1.198s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/cmake/Modules/FindASIO.cmake
+[1.199s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/cmake/Modules/em_expand.cmake
+[1.200s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/environment/library_path.sh
+[1.200s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/environment/library_path.dsv
+[1.201s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/ament_index/resource_index/package_run_dependencies/libmavconn
+[1.202s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/ament_index/resource_index/parent_prefix_path/libmavconn
+[1.202s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/environment/ament_prefix_path.sh
+[1.202s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/environment/ament_prefix_path.dsv
+[1.203s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/environment/path.sh
+[1.203s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/environment/path.dsv
+[1.204s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/local_setup.bash
+[1.204s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/local_setup.sh
+[1.205s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/local_setup.zsh
+[1.205s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/local_setup.dsv
+[1.206s] -- Symlinking: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/package.dsv
+[1.236s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/ament_index/resource_index/packages/libmavconn
+[1.236s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/cmake/libmavconn-extras.cmake
+[1.237s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.237s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.238s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_libraries-extras.cmake
+[1.238s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/cmake/libmavconnConfig.cmake
+[1.239s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/cmake/libmavconnConfig-version.cmake
+[1.239s] -- Up-to-date symlink: /home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/package.xml
+[1.240s] -- Up-to-date: /home/araballi/edhitha_ws/install/libmavconn/include/mavconn
+[1.240s] -- Up-to-date: /home/araballi/edhitha_ws/install/libmavconn/include/mavconn/mavlink_dialect.hpp
+[1.246s] Invoked command in '/home/araballi/edhitha_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble /usr/bin/cmake --install /home/araballi/edhitha_ws/build/libmavconn

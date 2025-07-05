@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/amrutha/amrutha.egg-info/PKG-INFO
+writing dependency_links to ../../build/amrutha/amrutha.egg-info/dependency_links.txt
+writing entry points to ../../build/amrutha/amrutha.egg-info/entry_points.txt
+writing requirements to ../../build/amrutha/amrutha.egg-info/requires.txt
+writing top-level names to ../../build/amrutha/amrutha.egg-info/top_level.txt
+reading manifest file '../../build/amrutha/amrutha.egg-info/SOURCES.txt'
+writing manifest file '../../build/amrutha/amrutha.egg-info/SOURCES.txt'
+running build
+running build_py
+copying submarine.py -> /home/araballi/edhitha_ws/build/amrutha/build/lib
+running install
+running install_lib
+copying /home/araballi/edhitha_ws/build/amrutha/build/lib/submarine.py -> /home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages
+byte-compiling /home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages/submarine.py to submarine.cpython-310.pyc
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (submarine.py, line 11)
+running install_data
+running install_egg_info
+removing '/home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages/amrutha-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/amrutha/amrutha.egg-info to /home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages/amrutha-0.0.0-py3.10.egg-info
+running install_scripts
+Installing submarine script to /home/araballi/edhitha_ws/install/amrutha/lib/amrutha
+writing list of installed files to '/home/araballi/edhitha_ws/build/amrutha/install.log'

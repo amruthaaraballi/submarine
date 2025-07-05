@@ -1,0 +1,19 @@
+[2.883s] Invoking command in '/home/araballi/edhitha_ws/src/amrutha': PYTHONPATH=/home/araballi/edhitha_ws/build/amrutha/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amrutha build --build-base /home/araballi/edhitha_ws/build/amrutha/build install --record /home/araballi/edhitha_ws/build/amrutha/install.log --single-version-externally-managed install_data
+[3.975s] running egg_info
+[4.011s] writing ../../build/amrutha/amrutha.egg-info/PKG-INFO
+[4.012s] writing dependency_links to ../../build/amrutha/amrutha.egg-info/dependency_links.txt
+[4.013s] writing entry points to ../../build/amrutha/amrutha.egg-info/entry_points.txt
+[4.013s] writing requirements to ../../build/amrutha/amrutha.egg-info/requires.txt
+[4.014s] writing top-level names to ../../build/amrutha/amrutha.egg-info/top_level.txt
+[4.060s] reading manifest file '../../build/amrutha/amrutha.egg-info/SOURCES.txt'
+[4.062s] writing manifest file '../../build/amrutha/amrutha.egg-info/SOURCES.txt'
+[4.062s] running build
+[4.063s] running install
+[4.078s] running install_data
+[4.078s] running install_egg_info
+[4.161s] removing '/home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages/amrutha-0.0.0-py3.10.egg-info' (and everything under it)
+[4.162s] Copying ../../build/amrutha/amrutha.egg-info to /home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages/amrutha-0.0.0-py3.10.egg-info
+[4.166s] running install_scripts
+[4.330s] Installing submarine script to /home/araballi/edhitha_ws/install/amrutha/lib/amrutha
+[4.331s] writing list of installed files to '/home/araballi/edhitha_ws/build/amrutha/install.log'
+[4.416s] Invoked command in '/home/araballi/edhitha_ws/src/amrutha' returned '0': PYTHONPATH=/home/araballi/edhitha_ws/build/amrutha/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/araballi/edhitha_ws/install/amrutha/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amrutha build --build-base /home/araballi/edhitha_ws/build/amrutha/build install --record /home/araballi/edhitha_ws/build/amrutha/install.log --single-version-externally-managed install_data

@@ -1,0 +1,57 @@
+[35m[1mConsolidate compiler generated dependencies of target servo_state_publisher[0m
+[  2%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/lib/servo_state_publisher.cpp.o[0m
+[  6%] Built target servo_state_publisher
+[35m[1mConsolidate compiler generated dependencies of target mavros_extras_plugins[0m
+[  9%] [32mBuilding CXX object CMakeFiles/mavros_extras_plugins.dir/src/plugins/gps_rtk.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/mavros_extras_plugins.dir/src/plugins/guided_target.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/mavros_extras_plugins.dir/src/plugins/hil.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/mavros_extras_plugins.dir/src/plugins/play_tune.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/mavros_extras_plugins.dir/src/plugins/trajectory.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/mavros_extras_plugins.dir/src/plugins/px4flow.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/mavros_extras_plugins.dir/src/plugins/rangefinder.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/mavros_extras_plugins.dir/src/plugins/wheel_odometry.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/mavros_extras_plugins.dir/src/plugins/terrain.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/mavros_extras_plugins.dir/src/plugins/vfr_hud.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/mavros_extras_plugins.dir/src/plugins/vibration.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/mavros_extras_plugins.dir/src/plugins/tunnel.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/mavros_extras_plugins.dir/src/plugins/vision_speed_estimate.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/mavros_extras_plugins.dir/src/plugins/vision_pose_estimate.cpp.o[0m
+[ 41%] [32m[1mLinking CXX shared library libmavros_extras.so[0m
+[ 41%] Built target mavros_extras
+[ 44%] [32m[1mLinking CXX shared library libmavros_extras_plugins.so[0m
+[100%] Built target mavros_extras_plugins
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras//mavros_plugins.xml
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/lib/mavros_extras/servo_state_publisher
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/include/mavros_extras/servo_state_publisher.hpp
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/launch/px4flow.launch
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/launch/px4flow_config.yaml
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/launch/px4flow_pluginlists.yaml
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/launch/servo_state_publisher.yaml
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/environment/library_path.sh
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/environment/library_path.dsv
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/ament_index/resource_index/package_run_dependencies/mavros_extras
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/ament_index/resource_index/parent_prefix_path/mavros_extras
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/environment/ament_prefix_path.sh
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/environment/ament_prefix_path.dsv
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/environment/path.sh
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/environment/path.dsv
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/local_setup.bash
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/local_setup.sh
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/local_setup.zsh
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/local_setup.dsv
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.dsv
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/ament_index/resource_index/packages/mavros_extras
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/ament_index/resource_index/mavros__pluginlib__plugin/mavros_extras
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/ament_index/resource_index/rclcpp_components/mavros_extras
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig.cmake
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
+-- Symlinking: /home/araballi/edhitha_ws/install/mavros_extras/share/mavros_extras/package.xml
+-- Installing: /home/araballi/edhitha_ws/install/mavros_extras/lib/libmavros_extras.so
+-- Set runtime path of "/home/araballi/edhitha_ws/install/mavros_extras/lib/libmavros_extras.so" to ""
+-- Installing: /home/araballi/edhitha_ws/install/mavros_extras/lib/libmavros_extras_plugins.so
+-- Set runtime path of "/home/araballi/edhitha_ws/install/mavros_extras/lib/libmavros_extras_plugins.so" to ""

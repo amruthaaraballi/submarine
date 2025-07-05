@@ -1,0 +1,270 @@
+[0.278s] Invoking command in '/home/araballi/edhitha_ws/build/mavros': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/araballi/edhitha_ws/src/mavros/mavros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/araballi/edhitha_ws/install/mavros
+[0.625s] -- The C compiler identification is GNU 11.4.0
+[1.423s] -- The CXX compiler identification is GNU 11.4.0
+[1.948s] -- Detecting C compiler ABI info
+[2.306s] -- Detecting C compiler ABI info - done
+[2.320s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[2.320s] -- Detecting C compile features
+[2.321s] -- Detecting C compile features - done
+[2.327s] -- Detecting CXX compiler ABI info
+[2.645s] -- Detecting CXX compiler ABI info - done
+[2.666s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[2.667s] -- Detecting CXX compile features
+[2.668s] -- Detecting CXX compile features - done
+[2.677s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.324s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.469s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.612s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[4.953s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.964s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.985s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.018s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.058s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.269s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.283s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.650s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.109s] -- Found FastRTPS: /opt/ros/humble/include  
+[14.501s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.610s] -- Looking for pthread.h
+[14.896s] -- Looking for pthread.h - found
+[14.897s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.201s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.203s] -- Found Threads: TRUE  
+[15.397s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[15.501s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[17.777s] -- Found message_filters: 4.3.7 (/opt/ros/humble/share/message_filters/cmake)
+[17.794s] -- Found libmavconn: 2.10.1 (/home/araballi/edhitha_ws/install/libmavconn/share/libmavconn/cmake)
+[17.805s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[17.828s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[17.890s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu  
+[17.897s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[17.909s] -- Found eigen_stl_containers: 1.1.0 (/opt/ros/humble/share/eigen_stl_containers/cmake)
+[17.925s] -- Found tf2_eigen: 0.25.13 (/opt/ros/humble/share/tf2_eigen/cmake)
+[18.209s] -- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[18.266s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[18.287s] -- Found geographic_msgs: 1.0.6 (/opt/ros/humble/share/geographic_msgs/cmake)
+[18.333s] -- Found mavros_msgs: 2.10.1 (/home/araballi/edhitha_ws/install/mavros_msgs/share/mavros_msgs/cmake)
+[18.483s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[18.550s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[18.599s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[19.072s] -- Geoid model datasets found in: /usr/share/GeographicLib/geoid
+[19.073s] -- Gravity Field model datasets found in: /usr/share/GeographicLib/gravity
+[19.073s] -- Magnetic Field model datasets found in: /usr/share/GeographicLib/magnetic
+[19.330s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[19.335s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[19.340s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[19.344s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[23.732s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[23.829s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[25.240s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[25.243s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/araballi/edhitha_ws/src/mavros/mavros/include>
+[25.244s] -- Configured cppcheck exclude dirs and/or files: ./test/*.cpp
+[25.264s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[25.265s] -- Configured cpplint exclude dirs and/or files: 
+[25.269s] -- Added test 'flake8' to check Python code syntax and style conventions
+[25.275s] -- Added test 'lint_cmake' to check CMake code style
+[25.278s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[25.295s] -- Added test 'uncrustify' to check C / C++ code style
+[25.295s] -- Configured uncrustify additional arguments: 
+[25.299s] -- Added test 'xmllint' to check XML markup files
+[25.312s] -- Configuring done
+[25.619s] -- Generating done
+[25.667s] -- Build files have been written to: /home/araballi/edhitha_ws/build/mavros
+[25.703s] Invoked command in '/home/araballi/edhitha_ws/build/mavros' returned '0': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/araballi/edhitha_ws/src/mavros/mavros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/araballi/edhitha_ws/install/mavros
+[25.707s] Invoking command in '/home/araballi/edhitha_ws/build/mavros': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/araballi/edhitha_ws/build/mavros -- -j16 -l16
+[25.887s] [  1%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/enum_sensor_orientation.cpp.o[0m
+[25.888s] [  3%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[25.891s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[25.903s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[25.904s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[25.904s] [  9%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/mavros_router.cpp.o[0m
+[25.904s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[25.904s] [ 12%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/enum_to_string.cpp.o[0m
+[25.909s] [ 14%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/ftf_quaternion_utils.cpp.o[0m
+[25.915s] [ 16%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/ftf_frame_conversions.cpp.o[0m
+[25.917s] [ 17%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/plugin.cpp.o[0m
+[25.921s] [ 19%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/mavros_uas.cpp.o[0m
+[25.930s] [ 20%] Built target ament_cmake_python_symlink_mavros
+[25.930s] [ 20%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_data.cpp.o[0m
+[25.931s] [ 20%] Built target ament_cmake_python_symlink_mavros_setup
+[25.933s] [ 22%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_ap.cpp.o[0m
+[25.958s] [ 25%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_executor.cpp.o[0m
+[25.958s] [ 25%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_stringify.cpp.o[0m
+[26.039s] [ 27%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[26.062s] [ 29%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[26.062s] [ 30%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_tf.cpp.o[0m
+[26.067s] [ 32%] [32m[1mLinking CXX static library libgmock.a[0m
+[26.075s] [ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[26.146s] [ 35%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_timesync.cpp.o[0m
+[26.168s] [ 35%] Built target gtest_main
+[26.193s] [ 35%] Built target gmock_main
+[26.250s] [ 37%] [32m[1mLinking CXX shared library libmavros.so[0m
+[26.289s] [ 37%] Built target gtest
+[26.308s] [ 37%] Built target gmock
+[27.117s] running egg_info
+[27.119s] creating mavros.egg-info
+[27.168s] writing mavros.egg-info/PKG-INFO
+[27.168s] writing dependency_links to mavros.egg-info/dependency_links.txt
+[27.169s] writing entry points to mavros.egg-info/entry_points.txt
+[27.170s] writing top-level names to mavros.egg-info/top_level.txt
+[27.170s] writing manifest file 'mavros.egg-info/SOURCES.txt'
+[27.299s] reading manifest file 'mavros.egg-info/SOURCES.txt'
+[27.302s] writing manifest file 'mavros.egg-info/SOURCES.txt'
+[27.430s] [ 37%] Built target ament_cmake_python_build_mavros_egg
+[29.839s] [ 37%] Built target mavros
+[29.923s] [ 40%] [32mBuilding CXX object CMakeFiles/libmavros-quaternion-utils-test.dir/test/test_quaternion_utils.cpp.o[0m
+[29.924s] [ 40%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o[0m
+[29.924s] [ 41%] [32mBuilding CXX object CMakeFiles/mavros-uas-test.dir/test/test_uas.cpp.o[0m
+[29.925s] [ 43%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o[0m
+[29.925s] [ 45%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o[0m
+[29.925s] [ 46%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o[0m
+[29.927s] [ 50%] [32mBuilding CXX object CMakeFiles/mavros-router-test.dir/test/test_router.cpp.o[0m
+[29.927s] [ 50%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o[0m
+[29.931s] [ 51%] [32mBuilding CXX object CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o[0m
+[29.937s] [ 53%] [32mBuilding CXX object CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.o[0m
+[29.940s] [ 54%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o[0m
+[29.944s] [ 56%] [32mBuilding CXX object CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.o[0m
+[29.944s] [ 58%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o[0m
+[29.945s] [ 59%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o[0m
+[29.949s] [ 61%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o[0m
+[29.955s] [ 62%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o[0m
+[30.085s] [ 64%] [32m[1mLinking CXX executable libmavros-quaternion-utils-test[0m
+[30.091s] [ 66%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o[0m
+[30.097s] [ 67%] [32m[1mLinking CXX executable libmavros-frame-conversions-test[0m
+[30.104s] [ 69%] [32m[1mLinking CXX executable libmavros-sensor-orientation-test[0m
+[30.117s] [ 72%] [32m[1mLinking CXX executable mavros-router-test[0m
+[30.118s] [ 72%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o[0m
+[30.128s] [ 74%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o[0m
+[30.134s] [ 75%] [32m[1mLinking CXX executable mavros_node[0m
+[30.139s] [ 77%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o[0m
+[30.146s] [ 79%] [32m[1mLinking CXX executable mavros-uas-test[0m
+[30.152s] [ 80%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o[0m
+[30.154s] [ 82%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o[0m
+[30.165s] [ 83%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o[0m
+[30.175s] [ 85%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o[0m
+[30.194s] [ 87%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o[0m
+[30.247s] [ 88%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o[0m
+[30.258s] [ 90%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o[0m
+[30.268s] [ 91%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o[0m
+[30.272s] [ 93%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o[0m
+[30.315s] [ 95%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o[0m
+[30.319s] [ 96%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o[0m
+[30.324s] [ 98%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o[0m
+[30.472s] [100%] [32m[1mLinking CXX shared library libmavros_plugins.so[0m
+[33.118s] [100%] Built target libmavros-quaternion-utils-test
+[33.170s] [100%] Built target libmavros-sensor-orientation-test
+[33.290s] [100%] Built target libmavros-frame-conversions-test
+[33.351s] [100%] Built target mavros_node
+[33.766s] [100%] Built target mavros-router-test
+[33.837s] [100%] Built target mavros-uas-test
+[54.208s] [100%] Built target mavros_plugins
+[54.287s] Invoked command in '/home/araballi/edhitha_ws/build/mavros' returned '0': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/araballi/edhitha_ws/build/mavros -- -j16 -l16
+[54.292s] Invoking command in '/home/araballi/edhitha_ws/build/mavros': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/araballi/edhitha_ws/build/mavros
+[54.314s] -- Install configuration: ""
+[54.315s] -- Execute custom install script
+[54.319s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros//mavros_plugins.xml
+[54.347s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/environment/pythonpath.sh
+[54.374s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/environment/pythonpath.dsv
+[54.406s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros-2.10.1-py3.10.egg-info/PKG-INFO
+[54.433s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros-2.10.1-py3.10.egg-info/SOURCES.txt
+[54.458s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros-2.10.1-py3.10.egg-info/dependency_links.txt
+[54.487s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros-2.10.1-py3.10.egg-info/entry_points.txt
+[54.518s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros-2.10.1-py3.10.egg-info/top_level.txt
+[54.548s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/__init__.py
+[54.576s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/base.py
+[54.603s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/__init__.py
+[54.632s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/__main__.py
+[54.660s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/checkid.py
+[54.688s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/cmd.py
+[54.716s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/ftp.py
+[54.741s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/mission.py
+[54.767s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/param.py
+[54.795s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/safety.py
+[54.822s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/system.py
+[54.850s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/utils.py
+[54.878s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/command.py
+[54.905s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/ftp.py
+[54.930s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/global_position.py
+[54.955s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/local_position.py
+[54.979s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/mavlink.py
+[55.006s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/mission.py
+[55.039s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/nuttx_crc32.py
+[55.070s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/param.py
+[55.096s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/setpoint.py
+[55.123s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/system.py
+[55.147s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/utils.py
+[55.173s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/lib/mavros/mav
+[55.201s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/lib/mavros/install_geographiclib_datasets.sh
+[55.234s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/include/mavros/frame_tf.hpp
+[55.271s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/include/mavros/mavros_plugin_register_macro.hpp
+[55.301s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/include/mavros/mavros_router.hpp
+[55.327s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/include/mavros/mavros_uas.hpp
+[55.353s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/include/mavros/mission_protocol_base.hpp
+[55.380s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/include/mavros/plugin.hpp
+[55.407s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/include/mavros/plugin_filter.hpp
+[55.433s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/include/mavros/px4_custom_mode.hpp
+[55.459s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/include/mavros/setpoint_mixin.hpp
+[55.487s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/include/mavros/uas_executor.hpp
+[55.516s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/include/mavros/utils.hpp
+[55.545s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/launch/apm.launch
+[55.571s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/launch/apm_config.yaml
+[55.599s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/launch/apm_pluginlists.yaml
+[55.627s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/launch/multi_uas.launch
+[55.655s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/launch/node.launch
+[55.687s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/launch/px4.launch
+[55.714s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/launch/px4_config.yaml
+[55.741s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/launch/px4_pluginlists.yaml
+[55.769s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/environment/library_path.sh
+[55.801s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/environment/library_path.dsv
+[55.835s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/ament_index/resource_index/package_run_dependencies/mavros
+[55.865s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/ament_index/resource_index/parent_prefix_path/mavros
+[55.894s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/environment/ament_prefix_path.sh
+[55.921s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/environment/ament_prefix_path.dsv
+[55.948s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/environment/path.sh
+[55.976s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/environment/path.dsv
+[56.018s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/local_setup.bash
+[56.047s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/local_setup.sh
+[56.080s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/local_setup.zsh
+[56.109s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/local_setup.dsv
+[56.135s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/package.dsv
+[56.162s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/ament_index/resource_index/packages/mavros
+[56.189s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/ament_index/resource_index/mavros__pluginlib__plugin/mavros
+[56.216s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/ament_index/resource_index/rclcpp_components/mavros
+[56.246s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/cmake/ament_cmake_export_include_directories-extras.cmake
+[56.279s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/cmake/ament_cmake_export_libraries-extras.cmake
+[56.311s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/cmake/ament_cmake_export_dependencies-extras.cmake
+[56.338s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/cmake/mavrosConfig.cmake
+[56.364s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/cmake/mavrosConfig-version.cmake
+[56.390s] -- Symlinking: /home/araballi/edhitha_ws/install/mavros/share/mavros/package.xml
+[56.634s] Listing '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros'...
+[56.634s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/__init__.py'...
+[56.634s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/base.py'...
+[56.634s] Listing '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd'...
+[56.634s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/__init__.py'...
+[56.634s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/__main__.py'...
+[56.635s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/checkid.py'...
+[56.635s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/cmd.py'...
+[56.635s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/ftp.py'...
+[56.635s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/mission.py'...
+[56.635s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/param.py'...
+[56.635s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/safety.py'...
+[56.636s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/system.py'...
+[56.636s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/utils.py'...
+[56.636s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/command.py'...
+[56.636s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/ftp.py'...
+[56.636s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/global_position.py'...
+[56.636s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/local_position.py'...
+[56.636s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/mavlink.py'...
+[56.637s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/mission.py'...
+[56.637s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/nuttx_crc32.py'...
+[56.637s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/param.py'...
+[56.637s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/setpoint.py'...
+[56.637s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/system.py'...
+[56.637s] Compiling '/home/araballi/edhitha_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/utils.py'...
+[56.644s] -- Installing: /home/araballi/edhitha_ws/install/mavros/lib/libmavros.so
+[56.707s] -- Set runtime path of "/home/araballi/edhitha_ws/install/mavros/lib/libmavros.so" to ""
+[56.707s] -- Installing: /home/araballi/edhitha_ws/install/mavros/lib/mavros/mavros_node
+[56.721s] -- Set runtime path of "/home/araballi/edhitha_ws/install/mavros/lib/mavros/mavros_node" to ""
+[56.721s] -- Installing: /home/araballi/edhitha_ws/install/mavros/lib/libmavros_plugins.so
+[57.111s] -- Set runtime path of "/home/araballi/edhitha_ws/install/mavros/lib/libmavros_plugins.so" to ""
+[57.119s] Invoked command in '/home/araballi/edhitha_ws/build/mavros' returned '0': CMAKE_PREFIX_PATH=/home/araballi/edhitha_ws/install/mavros_msgs:/home/araballi/edhitha_ws/install/libmavconn:/home/araballi/edhitha_ws/install/mavros:/home/araballi/edhitha_ws/install/amrutha:/opt/ros/humble LD_LIBRARY_PATH=/home/araballi/edhitha_ws/install/mavros_msgs/lib:/home/araballi/edhitha_ws/install/libmavconn/lib:/home/araballi/edhitha_ws/install/mavros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/araballi/edhitha_ws/build/mavros
