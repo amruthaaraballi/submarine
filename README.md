@@ -15,10 +15,10 @@ This project demonstrates how to simulate and control an underwater vehicle usin
 edhitha_ws/
 ├── src/
 │   └── amrutha/
-│       └── submarine.py     # Your ROS 2 node to control the vehicle
-├── log/                     # Build logs (ignored in git)
-├── install/                 # ROS 2 install space (ignored in git)
-├── build/                   # ROS 2 build space (ignored in git)
+│       └── submarine.py     
+├── log/                     
+├── install/                 
+├── build/                   
 ├── .gitignore
 └── README.md
 ```
@@ -62,6 +62,8 @@ Open **four terminals** and run the following commands:
 ```bash
 cd ~/ardupilot
 sim_vehicle.py -v ArduSub -f vectored --console --map --out=127.0.0.1:14550
+output add 127.0.0.1:14540  ( used to forward MAVLink data from SITL to MAVROS, enabling communication between the simulator and ROS 2 nodes)
+
 ```
 
 > Terminal 2 – MAVROS bridge
@@ -70,7 +72,7 @@ sim_vehicle.py -v ArduSub -f vectored --console --map --out=127.0.0.1:14550
 ros2 launch mavros apm.launch fcu_url:=udp://:14540@127.0.0.1:14557
 ```
 
-> Terminal 3 – Your Python control script
+> Terminal 3 – submarine.py (python script)
 
 ```bash
 cd ~/edhitha_ws
@@ -94,7 +96,7 @@ ros2 topic echo /mavros/state
 > What the Script Does
 
 - Arms the vehicle
-- Switches to `MANUAL` or `DEPTH_HOLD` mode
+- Switches to 'GUIDED' mode
 - Commands it to dive to a specific depth or to a specific point 
 - Moves the submarine back to origin
 ---
